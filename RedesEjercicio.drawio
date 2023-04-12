@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T11:33:26.860Z" agent="5.0 (Windows)" version="21.0.10" etag="gj4NSpXxbnfhp2X0WK7B" type="github"><diagram name="Página-1" id="2WFvyglhpR9Bf0pGd8AF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-12T12:24:47.654Z" agent="5.0 (Windows)" etag="vVkosoiXesCXp43FnuAk" version="21.0.10" type="github">
+  <diagram name="Página-1" id="2WFvyglhpR9Bf0pGd8AF">
+    <mxGraphModel dx="881" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JLmsmzv-yBW88DDtoOKk-1" value="&lt;div&gt;Direccion Minima: 192.168.110.1&lt;/div&gt;&lt;div&gt;Dirección máxima: 192.168.110.62&lt;/div&gt;&lt;div&gt;Dirección broadcast: 192.168.110.63&lt;/div&gt;&lt;div&gt;Direccion de red: 192.168.110.0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="45" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JLmsmzv-yBW88DDtoOKk-2" value="" style="shape=mxgraph.cisco.switches.atm_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="54" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="JLmsmzv-yBW88DDtoOKk-3" value="" style="shape=mxgraph.cisco.switches.atm_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="54" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="JLmsmzv-yBW88DDtoOKk-4" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="207" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="JLmsmzv-yBW88DDtoOKk-5" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="78" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
