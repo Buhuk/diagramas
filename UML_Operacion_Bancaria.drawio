@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:53:58.829Z" agent="5.0 (Windows)" version="21.0.10" etag="0MxuaTtQEadNCgu3C1C7" type="github"><diagram name="Página-1" id="o363aHan8OfpX6KSXVvB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:58:36.516Z" agent="5.0 (Windows)" etag="eEZi--aaOfkVwUFZsxM3" version="21.0.10" type="github">
+  <diagram name="Página-1" id="o363aHan8OfpX6KSXVvB">
+    <mxGraphModel dx="880" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-2" value="Ingresar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-3" value="Transferencia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-4" value="Retirar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-5" value="Identificarse" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-6" value="Transferencia Internet" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hS49bggjpQvIzF_MbU5Z-3" target="hS49bggjpQvIzF_MbU5Z-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="249.5" as="sourcePoint" />
+            <mxPoint x="650" y="249.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hS49bggjpQvIzF_MbU5Z-4" target="hS49bggjpQvIzF_MbU5Z-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="300" as="sourcePoint" />
+            <mxPoint x="600" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hS49bggjpQvIzF_MbU5Z-10" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hS49bggjpQvIzF_MbU5Z-6" target="hS49bggjpQvIzF_MbU5Z-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="230" as="sourcePoint" />
+            <mxPoint x="690" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
