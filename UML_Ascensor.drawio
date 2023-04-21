@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T12:20:15.358Z" agent="5.0 (Windows)" version="21.0.10" etag="-vIYe2SWoEhfeiNszKcb" type="github"><diagram name="Página-1" id="iOUM1X2coYNtIN1IpY-b">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-21T12:31:25.500Z" agent="5.0 (Windows)" etag="9uSvFmMayurVymSeVlxi" version="21.0.10" type="github">
+  <diagram name="Página-1" id="iOUM1X2coYNtIN1IpY-b">
+    <mxGraphModel dx="880" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-1" value="" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-2" value="Espera" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-3" value="Viajando" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-5" value="Viajar a planta baja" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-6" value="&lt;div&gt;Si no se usa en 2min&lt;/div&gt;&lt;div&gt;y&lt;/div&gt;&lt;div&gt;no esta ya en planta baja&lt;/div&gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=3;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofOmY9in0Ohp6GgNIwTh-3" target="ofOmY9in0Ohp6GgNIwTh-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="530" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-7" value="&lt;div&gt;Usuario elige planta&lt;/div&gt;&lt;div&gt;o&lt;/div&gt;&lt;div&gt;lo llama desde otra planta a la actual&lt;/div&gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=3;verticalAlign=bottom;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofOmY9in0Ohp6GgNIwTh-2" target="ofOmY9in0Ohp6GgNIwTh-3">
+          <mxGeometry x="0.75" width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="530" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-8" value="Se ha llegado a la planta elegida" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=3;verticalAlign=bottom;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofOmY9in0Ohp6GgNIwTh-3" target="ofOmY9in0Ohp6GgNIwTh-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ofOmY9in0Ohp6GgNIwTh-9" value="" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=3;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofOmY9in0Ohp6GgNIwTh-1" target="ofOmY9in0Ohp6GgNIwTh-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="530" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
